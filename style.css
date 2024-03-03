@@ -1,0 +1,731 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1440px;
+}
+
+nav {
+    width: 1440px;
+    padding: 0px 60px;
+    height: 77px;
+}
+
+#accio_logo img {
+    width: 38px;
+    height: 38px;
+}
+
+#accio_logo h3 {
+    width: 90px;
+    height: 38px;
+    font-family: "Bai Jamjuree", sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    color: #012555;
+}
+
+#logo p {
+    width: 10px;
+    border-right: 2px solid #DADADA;
+
+}
+
+#logo img {
+    width: 77px;
+    height: 35px;
+
+}
+
+#navbar {
+    width: 630px;
+    height: 100%;
+    gap: 28px;
+
+}
+
+#navbar>ul {
+    width: 494px;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    gap: 18px;
+}
+
+.drop option {
+    border-style: none;
+    border: none;
+}
+
+#navbar ul li {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #4F4F4F;
+
+}
+
+button {
+    width: 108px;
+    height: 47px;
+    padding: 15px, 36px, 15px, 36px;
+    border-radius: 8px !important;
+    gap: 10px;
+    border: 2px solid #2F80ED;
+    color: #2F80ED;
+}
+
+#annoucement {
+    width: 100%;
+    height: 37px;
+    gap: 10px;
+    text-align: center;
+    margin: auto;
+    background-color: #2F80ED;
+    padding: 4px 0px;
+
+}
+
+#hero_section {
+    width: 1440px;
+    height: 783px;
+    background: #FFFFFF;
+
+}
+
+#launch {
+    padding-top: 100px;
+}
+
+#p1 {
+    width: 674px;
+    height: 65px;
+    border: 1px;
+    font-family: "ABeeZee", sans-serif;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 65px;
+    letter-spacing: -0.015em;
+    text-align: left;
+
+}
+
+#p2 {
+    width: 674px;
+    height: 65px;
+    font-family: "ABeeZee", sans-serif;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 65px;
+    letter-spacing: -0.015em;
+    text-align: left;
+
+
+}
+
+#p2 span {
+    color: #2F80ED;
+}
+
+#p3 {
+    width: 492px;
+    height: 46px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.02em;
+    text-align: left;
+
+}
+
+.ima img {
+    width: 36px;
+    height: 36px;
+
+}
+
+.ima {
+    margin: auto;
+    padding: 15px 0px;
+}
+
+.frame1 {
+    width: 134px;
+    height: 47px;
+    border-radius: 13.62px;
+    gap: 10.21px;
+
+}
+
+.frame1 h4 {
+    font-family: "ABeeZee", sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.frame1 p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.01em;
+    text-align: left;
+
+}
+
+.frame {
+    width: 711px;
+    height: 77px;
+    padding: 15px, 20px, 15px, 20px;
+    border-radius: 8px;
+    border: 1px;
+    gap: 34px;
+    border: 1px solid #E2E2E2;
+    margin-bottom: 80px;
+
+}
+
+.salary {
+    border-radius: 13.62px;
+    gap: 10.21px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    padding: 10px 0px !important;
+
+}
+
+#salary1 {
+    width: 100px;
+    height: 19px;
+
+
+}
+
+#made {
+    width: 261px;
+    height: 41px;
+    top: -3614px;
+    left: -610px;
+    padding: 10px, 20px, 10px, 20px !important;
+    border-radius: 23px;
+    gap: 10px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 2px 40px 0px #0000001F;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+#card {
+    text-align: center !important;
+    width: 415px;
+    height: 496px;
+    box-shadow: 2px 2px 5px 2px #00000014;
+    padding: 50px;
+
+}
+
+#frame-1 {
+    width: 291px;
+    height: 151px;
+    gap: 4px;
+    text-align: center;
+
+}
+
+#frame-1 h4 {
+    width: 291px;
+    height: 96px;
+    font-family: "ABeeZee", sans-serif;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: -0.015em;
+    text-align: center;
+    color: #2B2F34;
+
+}
+
+#frame-1 p {
+    width: 278px;
+    height: 48px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #818D9D;
+
+}
+
+#contact {
+    width: 366px;
+    height: 118px;
+    gap: 14px;
+    text-align: center;
+}
+
+#contact input {
+    width: 366px;
+    height: 52px;
+    border-radius: 8px;
+    gap: 10px;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: #2B2F34;
+}
+
+#contact i {
+    width: 20px;
+    height: 20px;
+
+}
+
+.numbers {
+    color: #8393A9 !important;
+
+}
+
+#frame-3 {
+    width: 367px;
+    height: 111px;
+    gap: 14px;
+    margin: auto;
+
+}
+
+#frame-3 button {
+    width: 367px;
+    height: 55px;
+    border-radius: 8px;
+    gap: 2px;
+    background: linear-gradient(276.97deg, #992FED 0%, #2F80ED 100%);
+    color: #DADADA;
+    font-family: "ABeeZee", sans-serif;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+#frame-3 button img {
+    width: 22px;
+    height: 22px;
+
+}
+
+#course_we_offer {
+    width: 1440px;
+    height: 864px;
+    padding: 80px, 0px, 78px, 0px;
+    background-color: #ECF8FF;
+}
+
+#title {
+    width: 100%;
+    height: 83px;
+    text-align: center;
+    padding: 70px 0px 55px 0px;
+}
+
+#title h3 {
+    font-family: "ABeeZee", sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.08em;
+    color: #992FED;
+
+}
+
+#title p {
+    font-family: "ABeeZee", sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 54px;
+    letter-spacing: -0.015em;
+    text-align: center;
+    color: #2F80ED;
+}
+
+#cards {
+    width: 1017px;
+    height: 563px;
+    margin: auto;
+    margin-top: 50px;
+
+}
+
+.two_cards {
+    width: 498px;
+    height: 563px;
+    border-radius: 9px;
+    border: 2px;
+    background-color: #FFFFFF;
+    border: 2px solid #2F80ED;
+    text-align: center;
+}
+
+#cards {
+    padding-top: 60px;
+}
+
+.tag {
+    font-family: "ABeeZee", sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    width: 230px;
+    height: 29px;
+    border-radius: 7px;
+    border: 2px;
+    background: #2F80ED;
+    color: #FFFFFF;
+    border: 2px solid #2F80ED;
+    margin-top: 0px;
+
+}
+
+#title_div {
+    width: 296px;
+    height: 107px;
+    margin: auto;
+    padding-top: 10px;
+
+}
+
+.beginner img {
+    width: 36px;
+    height: 36px;
+    padding: 5.4px, 7.09px, 3.6px, 5.4px;
+
+}
+
+.beginner p {
+    font-family: "ABeeZee", sans-serif;
+    font-size: 26px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0em;
+    padding-top: 10px;
+    padding-left: 8px;
+}
+
+#assrance {
+    width: 284px;
+    height: 26px;
+}
+
+.p4 {
+    width: 148px;
+    height: 26px;
+    padding: 6px, 15px, 6px, 15px;
+    border-radius: 7px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    background: #E0F3FF;
+    border: none;
+
+}
+
+.p5 {
+    width: 124px;
+    height: 26px;
+    padding: 6px, 15px, 6px, 15px;
+    border-radius: 7px;
+    background: #E0F3FF;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    border: none;
+
+}
+
+.pline {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    width: 296px;
+    height: 21px;
+    padding-top: 10px;
+}
+
+.details {
+    width: 426px;
+    height: 266px;
+    margin-top: 50px;
+
+}
+
+.line {
+    width: 425px;
+    height: 22px;
+    margin: auto;
+
+}
+
+.placement {
+    width: 161px;
+    height: 22px;
+
+}
+
+.placement img {
+    width: 22px;
+    height: 22px;
+
+}
+
+
+.card_p {
+    margin-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    padding-left: 5px;
+
+}
+
+#button {
+    width: 426px;
+    height: 55px;
+}
+
+#brochure {
+    width: 203px;
+    height: 55px;
+    padding: 14px, 6px, 14px, 6px;
+    border-radius: 8px;
+    border: 1px;
+    background: #FFFFFF;
+    border: 1px solid #2F80ED;
+
+}
+
+#icon img {
+    width: 22px;
+    height: 22px;
+
+}
+
+.button_p {
+    font-family: "ABeeZee", sans-serif;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    padding-top: 15px;
+    padding-left: 8px;
+}
+
+#learn {
+    width: 210px;
+    height: 55px;
+    border-radius: 8px;
+    background: #2F80ED;
+    font-family: "ABeeZee", sans-serif;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+
+}
+
+.p6 {
+    width: 148px;
+    height: 26px;
+    padding: 6px, 15px, 6px, 15px;
+    border-radius: 7px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    background: #FFEED8;
+    color: #965400;
+    border: none;
+
+}
+
+.p7 {
+    width: 124px;
+    height: 26px;
+    padding: 6px, 15px, 6px, 15px;
+    border-radius: 7px;
+    background: #FFEED8;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    color: #965400;
+    border: none;
+}
+
+.intermediate img {
+    width: 36px;
+    height: 36px;
+    padding: 5.4px, 7.09px, 3.6px, 5.4px;
+
+}
+
+.intermediate p {
+    font-family: "ABeeZee", sans-serif;
+    font-size: 26px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0em;
+    margin-top: 10px;
+    padding-left: 8px;
+}
+
+.intermediate {
+    margin-top: 30px;
+}
+
+.two_card {
+    width: 498px;
+    height: 563px;
+    border-radius: 9px;
+    border: 2px;
+    background-color: #FFFFFF;
+    border: none;
+    text-align: center;
+}
+
+#companies {
+    width: 1440px;
+    height: 794px;
+
+}
+
+#title1 {
+    text-align: center;
+    padding-top: 100px;
+    width: 641px;
+    height: 182px;
+    margin: auto;
+
+}
+
+#company {
+    width: 251px;
+    height: 19px;
+    font-family: "ABeeZee", sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.08em;
+    color: #992FED;
+    text-align: center;
+    margin: auto;
+
+}
+
+#company_frame {
+    width: 641px;
+    height: 157px;
+}
+
+#company_frame h3 {
+    font-family: "ABeeZee", sans-serif;
+    font-size: 42px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 63px;
+    letter-spacing: -0.015em;
+    text-align: center;
+
+}
+
+#company_frame h3 span {
+    color: #2F80ED;
+
+}
+
+#company_frame p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.02em;
+    color: #595959;
+
+}
+
+#company_logo {
+    width: 1224px;
+    height: 306px;
+    padding: 50px 0px;
+
+}
+
+#company1 {
+    width: 1224px;
+    height: 70px;
+}
+
+#c1 {
+    width: 168px;
+    height: 100%;
+    padding-top: 100px;
+    margin: auto;
+    gap: 50px;
+    padding-left: 300px;
+}
